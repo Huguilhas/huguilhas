@@ -1,6 +1,6 @@
 # 🧑🏻‍💻 Hugo Gomes
 
-**`DataEngineer`**
+**`Data Engineer`**
 
 Atualmente, atuo no time de Dados da **Grendene**, focado em transformar processos complexos em soluções de dados eficientes. Tenho experiência prática em migrações de larga escala e no desenvolvimento de arquiteturas modernas de BI.
 
