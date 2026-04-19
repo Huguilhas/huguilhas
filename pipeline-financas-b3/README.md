@@ -12,9 +12,6 @@ pipeline de dados para coleta, tratamento e analise de cotacoes da b3, seguindo 
 ![Airflow](https://img.shields.io/badge/airflow-2.x-017CEE?logo=apacheairflow&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/streamlit-red?logo=streamlit&logoColor=white)
 
-# Arquitetura
-![arquitetura](arquitetura.png)
-
 ## 🗒️Stack
 - **yfinance** — coleta de cotações da B3
 - **pandas** — manipulação dos dados
@@ -22,14 +19,14 @@ pipeline de dados para coleta, tratamento e analise de cotacoes da b3, seguindo 
 - **Apache Airflow** — orquestração e agendamento do pipeline
 - **Streamlit** — visualização dos dados
 
-## Arquitetura
-`yfinance` → `bronze (raw)` → `silver (limpo)` → `gold (analítico)` → `Streamlit`
+# Arquitetura
+![arquitetura](docs/arquitetura.png)
 
 ## **Passo a Passo**
 ### 1. Criar venv
 ```bash
- python -m venv venv  
- venv\Scripts\activate
+python -m venv venv  
+venv\Scripts\activate
 ```
 
 ### 2. Instalar dependências
